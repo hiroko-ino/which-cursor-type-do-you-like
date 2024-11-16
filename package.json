@@ -1,11 +1,11 @@
 {
-  "name": "whitch-do-you-like-cursor-type",
+  "name": "which-cursor-type-do-you-like",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc --noEmit && vite build --base=/which-cursor-type-do-you-like/",
     "preview": "vite preview"
   },
   "dependencies": {
